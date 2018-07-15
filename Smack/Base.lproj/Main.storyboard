@@ -309,6 +309,9 @@
                             <constraint firstItem="Sb3-Ix-Q4j" firstAttribute="top" secondItem="Wdd-1m-Pjf" secondAttribute="bottom" constant="8" id="uRx-Ul-XXd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="xhO-3E-faH" kind="show" identifier="toCreateAccount" id="RRs-Rq-266"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K91-n7-f3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -330,6 +333,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VuT-XB-3co" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2308" y="-316"/>
         </scene>
     </scenes>
     <resources>
